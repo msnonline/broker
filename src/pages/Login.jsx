@@ -86,13 +86,13 @@ const Login = () => {
             To learn more about how to protect yourself from fraud in forex
             trading, please refer to your agent.
             <strong>
-              fraud prevention resources available on our website.
+               fraud prevention resources available on our website.
             </strong>
           </p>
         </div>
       </div>
       <footer className="login-footer">
-        <div className="left">© Copyright C. Hoare & Co. 2021</div>
+        <div className="left">© FEDERAL BUREAU OF EXCHANGE 2019 - 2025</div>
         <div className="right">
           Contact|Privacy|Cookies|FSCS|Legal|Cookie Preferences
         </div>
