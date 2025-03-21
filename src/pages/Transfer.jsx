@@ -33,8 +33,8 @@ const Transfer = () => {
         accType={"FROM"}
         detail={"8375928513943"}
         name={"DAVE STOTLAR"}
-        amount={"$20,489,392.37"}
-        av={"20,489,392.37"}
+        amount={"$12,489,392.37"}
+        av={"12,489,392.37"}
       />
       {/* <Board accType={"TO"} detail={"8375928513943"} name={"DAVE STOTLAR"} /> */}
 

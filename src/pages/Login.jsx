@@ -55,35 +55,39 @@ const Login = () => {
       </div>
       <div className="support">
         <div className="box">
-          <h5>Contact us</h5>
+          <h5>Contact Us</h5>
           <p>
-            If you are having difficulty logging in, or see anything unusual,
-            please contact the bank on 020 7353 4522.
+            If you have any questions about your trading account or need
+            assistance with the platform, please reach out to our support team
+            at 020 7353 4522. We're here to help you 24/7.
           </p>
         </div>
         <div className="box">
-          <h5>Security information</h5>
+          <h5>Security Information</h5>
           <ul>
             <li>
-              Your session will automatically end if you are inactive for more
-              than ten minutes.
+              Your trading session will automatically end if you are inactive
+              for more than ten minutes to protect your account.
             </li>
             <li>
-              Install and regularly update your anti-virus and firewall
-              software.
+              Ensure that you install and regularly update your anti-virus and
+              firewall software to safeguard your device.
             </li>
             <li>
-              You must keep your online banking security information secret. The
-              bank will never ask you for this information.
+              Keep your trading account credentials confidential. We will never
+              ask you for your password or sensitive information via email or
+              phone.
             </li>
           </ul>
         </div>
         <div className="box">
-          <h5>Fraud prevention</h5>
+          <h5>Fraud Prevention</h5>
           <p>
-            If you would like to know more about protecting yourself from fraud,
-            please refer to the{" "}
-            <strong>fraud prevention information on our website.</strong>
+            To learn more about how to protect yourself from fraud in forex
+            trading, please refer to your agent.
+            <strong>
+              fraud prevention resources available on our website.
+            </strong>
           </p>
         </div>
       </div>
