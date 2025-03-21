@@ -85,9 +85,6 @@ const Login = () => {
           <p>
             To learn more about how to protect yourself from fraud in forex
             trading, please refer to your agent.
-            <strong>
-               fraud prevention resources available on our website.
-            </strong>
           </p>
         </div>
       </div>
