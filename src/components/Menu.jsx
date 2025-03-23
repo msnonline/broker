@@ -1,13 +1,22 @@
 import bank from "../assets/bank.png";
 import transfer from "../assets/transfer.png";
 import card from "../assets/card.png";
-import more from "../assets/more.png";
+import more from "../assets/logout.png";
 
 import { Link } from "react-router";
+import { useAuth } from "../components/AuthContext";
+import { useNavigate } from "react-router-dom";
 
 const Menu = () => {
+   const { logout } = useAuth();
+   const navigate = useNavigate();
+   const handleLogout = () => {
+     logout();
+     navigate("/");
+     window.location.reload();
+   };
   return (
-    <footer className={window.location.href.includes("login")? "none" : ""}>
+    <footer className={window.location.href.includes("login") ? "none" : ""}>
       <Link to="/">
         <div className="bottom-btn">
           <img className="btm-icon" src={bank} alt="" srcSet="" />
@@ -26,12 +35,16 @@ const Menu = () => {
           <aside>Cards/Banks</aside>
         </div>
       </Link>
-      <Link to="/more">
-        <div className="bottom-btn">
-          <img className="btm-icon" src={more} alt="" srcSet="" />
-          <aside>More</aside>
-        </div>
-      </Link>
+      <div className="bottom-btn">
+        <img
+          className="btm-icon"
+          src={more}
+          onClick={handleLogout}
+          alt=""
+          srcSet=""
+        />
+        <aside>Logout</aside>
+      </div>
     </footer>
   );
 };

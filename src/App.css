@@ -18,12 +18,16 @@
     margin:1rem auto;
     display: block;
     background-color: #000000 ;
-    width: 200px;
+    width: 226px;
     height: 47px;
     text-align: center;
     border: none;
     color: white;
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
 }
 
 .pin{
@@ -36,8 +40,16 @@
 }
 
 .pin-code{
+    width: 100%;
     font-size: 1.3rem;
     text-align: center;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-left: none;
+    border-right: none;
 }
 
 .pin-head{

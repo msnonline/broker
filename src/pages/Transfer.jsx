@@ -30,7 +30,7 @@ const Transfer = () => {
   return (
     <div className="major-container">
       <Board
-        accType={"FROM"}
+        accType={"INVESTMENT ACCOUNT"}
         detail={"8375928513943"}
         name={"DAVE STOTLAR"}
         amount={"$12,489,392.37"}

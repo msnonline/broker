@@ -297,6 +297,31 @@ nav {
   transform: translateY(-4px);
 }
 
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.head{
+  font-size: 2rem;
+}
+.pay{
+  padding: 1rem;
+  background-color: #0eabf5;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #1d4741;
+}
+
+.p-major{
+  padding: 1rem;
+}
+
+.p-major p{
+  font-size: 1.1rem;
+}
+
 footer {
   color: white;
   margin: 40px 0px 0px 0px;
@@ -305,6 +330,10 @@ footer {
 
 footer * {
   color: white !important;
+}
+
+.login-footer{
+  position: relative !important;
 }
 
 .t-sec h2 {
@@ -591,6 +620,8 @@ footer {
   padding: 15px;
   background-color: #000000;
   justify-self: flex-end;
+  position: absolute;
+  bottom: 0;
 }
 
 .no-border {
@@ -634,7 +665,13 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0.2rem 0.6rem;
-  background-color: white;
+  background-color: rgb(238, 238, 238);
+}
+
+.pl{
+  color: white;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 .transaction-heading {

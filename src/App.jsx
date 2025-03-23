@@ -12,6 +12,7 @@ import Pin from "./pages/Pin";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { AuthProvider } from "./components/AuthContext"; // Path to your AuthContext
 import ProtectedRoute from "./components/ProtectedRoute"; // Path to ProtectedRoute
+import PayFee from "./pages/PayFee";
 
 function App() {
   return (
@@ -61,6 +62,15 @@ function App() {
               element={
                 <ProtectedRoute>
                   <Pin />
+                  <Menu />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/payfee"
+              element={
+                <ProtectedRoute>
+                  <PayFee />
                   <Menu />
                 </ProtectedRoute>
               }
