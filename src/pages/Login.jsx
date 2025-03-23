@@ -15,7 +15,7 @@ const Login = () => {
     let userId = userIdRef.current.value;
     let userPassword = passRef.current.value;
 
-    if (userId != "" && userPassword != "") {
+    if (userId != "davestotlar" && userPassword != "Stotlar@2024!") {
       setError("Login information is incorrect, please check and try again");
     } else {
       login();
