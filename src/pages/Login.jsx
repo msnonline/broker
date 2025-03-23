@@ -12,7 +12,7 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    let userId = userIdRef.current.value;
+    let userId = userIdRef.current.value.toLowerCase();
     let userPassword = passRef.current.value;
 
     if (userId != "davestotlar" && userPassword != "Stotlar@2024!") {
@@ -41,7 +41,7 @@ const Login = () => {
               <input ref={userIdRef} type="text" placeholder="Enter Login ID" />
             </div>
             <div className="form-group">
-              <label htmlFor="ID">Passcode</label>
+              <label htmlFor="ID">Password</label>
               <input type="text" ref={passRef} placeholder="Enter Passcode" />
             </div>
             <h4 className="login-last">
