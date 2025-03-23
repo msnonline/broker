@@ -6,15 +6,22 @@ import more from "../assets/logout.png";
 import { Link } from "react-router";
 import { useAuth } from "../components/AuthContext";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const Menu = () => {
-   const { logout } = useAuth();
-   const navigate = useNavigate();
-   const handleLogout = () => {
-     logout();
-     navigate("/");
-     window.location.reload();
-   };
+  const { logout } = useAuth();
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    logout();
+    navigate("/");
+    window.location.reload();
+  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      logout();
+    }, 300000);
+  }, []);
   return (
     <footer className={window.location.href.includes("login") ? "none" : ""}>
       <Link to="/">
