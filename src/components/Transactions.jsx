@@ -227,6 +227,7 @@ const Transactions = () => {
               </div>
             </div>
           </div>
+          <br /><br /><br />
         </div>
         {/* <div className="no-trans">
           <p>No transactions to show at this time.</p>
