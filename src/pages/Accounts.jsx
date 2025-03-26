@@ -8,8 +8,8 @@ const Accounts = () => {
         accType="INVESTMENT ACCOUNT"
         detail="8375928513943"
         name={"DAVE STOTLAR"}
-        amount={"$12,489,392.37"}
-        av={"12,489,392.37"}
+        amount={"12,816,280.37"}
+        av={"12,816,280.37"}
       />
       <Transactions />
     </div>

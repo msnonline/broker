@@ -7,6 +7,17 @@ const Transactions = () => {
           <div className="group-month">
             <div className="group-month">
               <div className="month">
+                <h3>Wednesday 26th March 2025</h3>
+              </div>
+              <div className="t-group">
+                <div className="transaction">
+                  <h1 className="title">BONUS FROM TRADE 8494819</h1>
+                  <div className="t-amt plus">+$326,888</div>
+                </div>
+              </div>
+            </div>
+            <div className="group-month">
+              <div className="month">
                 <h3>Thursday 1st March 2025</h3>
               </div>
               <div className="t-group">
@@ -227,7 +238,9 @@ const Transactions = () => {
               </div>
             </div>
           </div>
-          <br /><br /><br />
+          <br />
+          <br />
+          <br />
         </div>
         {/* <div className="no-trans">
           <p>No transactions to show at this time.</p>
