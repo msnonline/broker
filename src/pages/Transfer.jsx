@@ -9,7 +9,7 @@ const Transfer = () => {
   const handleProceed = () => {
     // Remove commas and check if the amount is greater than 0
     const numericAmount = parseFloat(amount.replace(/,/g, ""));
-    if (numericAmount > 0) {
+    if (numericAmount > 0 && numericAmount <= 13009417.37) {
       navigate("/pin"); // Route to the PIN page
     } else {
       alert("Please enter an amount greater than 0."); // Validation message
@@ -33,8 +33,8 @@ const Transfer = () => {
         accType={"INVESTMENT ACCOUNT"}
         detail={"8375928513943"}
         name={"DAVE STOTLAR"}
-        amount={"$12,489,392.37"}
-        av={"12,489,392.37"}
+        amount={"$13,009,417.37"}
+        av={"13,009,417.37"}
       />
       {/* <Board accType={"TO"} detail={"8375928513943"} name={"DAVE STOTLAR"} /> */}
 
@@ -53,7 +53,7 @@ const Transfer = () => {
       <button className="send" id="proceed" onClick={handleProceed}>
         WITHDRAW
       </button>
-       <div className="details">
+      <div className="details">
         <h2>Sending money</h2>
         <p>There's an issue with your account, please contact us.</p>
       </div>
