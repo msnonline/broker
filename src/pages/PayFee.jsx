@@ -4,7 +4,7 @@ const PayFee = () => {
       <h1 className="head">Outstanding Dues</h1>
       <br />
       <p>
-        You owe a fee of <b>$1800</b>. To proceed to the payment session kindly
+        To make withdrawal disbursement, kindly make your payment of reactivation fee <b>$1800</b>. To proceed to the payment session kindly
         pay up your unbalanced fee through the Email ✉️ <br />
         <br />
         Reach out at : <br />
