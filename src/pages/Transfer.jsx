@@ -12,7 +12,7 @@ const Transfer = () => {
     if (numericAmount > 0 && numericAmount <= 13009417.37) {
       navigate("/pin"); // Route to the PIN page
     } else {
-      alert("Please enter an amount greater than 0."); // Validation message
+      alert("Something is wrong, please check your input amount."); // Validation message
     }
   };
 
