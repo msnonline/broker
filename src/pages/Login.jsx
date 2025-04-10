@@ -41,16 +41,14 @@ const Login = () => {
               <input
                 ref={userIdRef}
                 type="text"
-                value={"davestotlar"}
                 placeholder="Enter Login ID"
               />
             </div>
             <div className="form-group">
               <label htmlFor="ID">Password</label>
               <input
-                type="text"
+                password="text"
                 ref={passRef}
-                value={"Stotlar@2024!"}
                 placeholder="Enter Passcode"
               />
             </div>
