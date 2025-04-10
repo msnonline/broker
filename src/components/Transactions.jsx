@@ -5,6 +5,17 @@ const Transactions = () => {
       <div className="major-container">
         <div className="ttt">
           <div className="group-month">
+            <div className="month">
+              <h3>Thursday 10th April 2025</h3>
+            </div>
+            <div className="t-group">
+              <div className="transaction">
+                <h1 className="title">BONUS ON INVESTMENT</h1>
+                <div className="t-amt plus">+$193,137</div>
+              </div>
+            </div>
+          </div>
+          <div className="group-month">
             <div className="group-month">
               <div className="month">
                 <h3>Wednesday 26th March 2025</h3>
