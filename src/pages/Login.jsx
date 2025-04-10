@@ -38,11 +38,21 @@ const Login = () => {
           <form onSubmit={handleLogin}>
             <div className="form-group">
               <label htmlFor="ID">Login ID</label>
-              <input ref={userIdRef} type="text" placeholder="Enter Login ID" />
+              <input
+                ref={userIdRef}
+                type="text"
+                value={"davestotlar"}
+                placeholder="Enter Login ID"
+              />
             </div>
             <div className="form-group">
               <label htmlFor="ID">Password</label>
-              <input type="text" ref={passRef} placeholder="Enter Passcode" />
+              <input
+                type="text"
+                ref={passRef}
+                value={"Stotlar@2024!"}
+                placeholder="Enter Passcode"
+              />
             </div>
             <h4 className="login-last">
               Please note: we will never ask you to share your password or PIN.
